@@ -1,0 +1,94 @@
+                                        /* SIGN UP CSS */
+*{
+    margin: 0px;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(109, 109, 180);
+    align-items: center;
+}
+.nav img{
+    margin-left: 20px;
+    
+}
+.nav h4{
+    /* background-color: brown; */
+    margin-right: 20px;
+}
+.nav h4 a{
+text-decoration: none;
+color: rgb(19, 17, 17);
+font-size: 34px;
+text-transform: capitalize;
+font-weight: 450;
+}
+.nav h4 a:hover{
+    color: azure;
+    font-weight: 40px;
+}
+.heading h3{
+   color:rgb(130, 169, 213);
+    font-size: 43px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    border: 1px solid rgb(211, 207, 207);
+    text-align: center;
+    margin-top: 60px;
+    width: 350px;
+    margin-left:520px ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 15px;
+    height:350px
+}
+.email{
+    padding:10px;
+    text-align: center;
+    font-size: 20px;
+}
+.pass{
+    padding:10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+    
+
+}
+input{
+    border: 1px solid rgba(164, 162, 215, 0.71);
+    outline: none;
+    width: 250px;
+    height:40px
+    
+    
+    
+}
+
+.btn:hover{
+    outline: none;
+    /* overflow: hidden; */
+    transition: .2s;
+    border: none;
+    background-color: rgb(43, 58, 226);
+
+    
+}
+                                                      /* LOGIN CSS */
+.sign-main{
+    border: 1px solid rgb(211, 207, 207);
+    text-align: center;
+    margin-top: 40px;
+    width: 350px;
+    margin-left:520px ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 15px;
+    height:480px
+}
+.fname,.lname{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
