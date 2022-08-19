@@ -92,3 +92,79 @@ input{
     text-align: center;
     font-size: 20px;
 }
+
+                           /* CARD CSS */
+.nav h3{
+text-decoration: none;
+color: rgb(19, 17, 17);
+font-size: 34px;
+text-transform: capitalize;
+font-weight: 450;
+margin-right: 20px;
+}
+.card{
+    /* border: 1 px solid rgb(67, 63, 63);
+    box-shadow: 10px 10px 5px #aaaaaa; */
+    box-shadow: 10px 10px 5px #aaaaaa;
+    /* background-color: rgb(178, 211, 206); */
+    margin-left: 100px;
+    /* display: block; */
+    margin-top: 42px;
+    /* width: 300px !important; */
+    
+}
+.card:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
+.row{
+    display: flex;
+}
+.card img{
+    padding-top: 40px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 10px;
+}
+.card .new{
+    margin-left: 60px;
+}
+.card-body .card-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+.main{
+    margin-left: 19px;
+    width: 310px;
+}
+.sign-main{  
+    margin-left: 19px;
+    width: 310px;
+}
+.nav img{
+    width: 70px;
+}
+.nav h4 a{
+    font-size: 26px;
+    font-weight: 1060;
+}
+.row{
+    display: block;
+}
+.card1{
+    margin-left: -50px;
+}
+}
