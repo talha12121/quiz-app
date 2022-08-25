@@ -5,38 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="nav">
         <img width="100px" src="./images/quiz_0.png" alt="">
-        <h3 id="card">Hello</h3>
+        <h3 id="card-name"></h3>
     </div>
     <div class="row">
-        <div class="card1 col-sm-12 col-md-6 col-lg-4">
-          <div class="card" style="width: 18rem;">
-              <img src="./images/html.png"  width="260px"class="card-img-top" alt="...">
+        <div  class="card1 col-sm-12 col-md-6 col-lg-4">
+          <div  class="card" style="width: 18rem;">
+              <a href="./quiz1.html"><img src="./images/html.png"  width="260px"class="card-img-top" alt="..."></a>
               <div class="card-body">
-                <h5 class="card-title"> HTML QUIZ</h5>
-                <!-- <p class="card-text" id="card_3" style=" color:black; font-family: 'Noto Nastaliq Urdu', serif;   ">aasasas</p>  -->
+                <h5 class="card-title" > HTML QUIZ</h5>
+               
               </div>
              </div>
         </div>
         <div class="card1 col-sm-12 col-md-6 col-lg-4">
-          <div class="card" style="width: 18rem;">
-              <img src="./images/css.png"  width="185px" class="card-img-top new" alt="...">
+          <div  class="card new-card1" style="width: 18rem;">
+              <a href="./quiz2.html"><img src="./images/css.png"  width="185px" class="card-img-top new" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">CSS QUIZ</h5>
-                <!-- <p class="card-text" id="card_2" style=" color:black; font-family: 'Noto Nastaliq Urdu', serif;   " >adads</p>  -->
               </div>
             </div>
         </div>
         <div class="card1 col-sm-12 col-md-6 col-lg-4">
-          <div class="card" style="width: 18rem;">
-              <img src="./images/js.png"  width="260px" class="card-img-top" alt="...">
+          <div  class="card new-card2" style="width: 18rem;">
+             <a href="./quiz3.html"><img src="./images/js.png"  width="260px" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">JAVASCRIPT QUIZ</h5>
-                <!-- <p class="card-text" id="card_1" style=" color:black; font-family: 'Noto Nastaliq Urdu', serif;   "> asadd</p>  -->
                </div>
             </div>
         </div>
@@ -47,6 +47,8 @@
 
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="card.js"></script>
+    <script>
+        var name = document.getElementById("card-name").innerHTML = "HEllo" +" "+ localStorage.getItem("getfname")
+    </script>
 </body>
 </html>

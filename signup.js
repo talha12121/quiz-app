@@ -1,30 +1,21 @@
 var val1=document.getElementById("signBtn")
-var getemail=document.getElementById("getemail")
-var getpassword=document.getElementById("getpassword")
+var email1=document.getElementById("email1")
+var password1=document.getElementById("password1")
 var getfname = document.getElementById("getfname")
 var getlname = document.getElementById("getlname")
 function getbtn(){
-var setvalue1 = localStorage.setItem("getemail",getemail.value);
-var setpass1= localStorage.setItem("getpassword",getpassword.value);
+var setvalue1 = localStorage.setItem("email",email1.value);
+var setpass1= localStorage.setItem("password",password1.value);
 var getfname1 = localStorage.setItem("getfname",getfname.value);
 
 if(getfname.value === "" || getlname.value === ""){
     swal("PLEASE FILL THE FORM CORRECTLY")
    }
-   else if(getemail.value === "" || getpassword.value === ""){
+   else if(email1.value === "" || password1.value === ""){
    swal("PLEASE FILL THE FORM CORRECTLY");
    }
    else{
     window.location = "index.html";
    }
 
-// if(getemail.value === "" || getpassword.value === ""){
-//     swal("Please enter correctly")
-//    }
-// if(getfname.value === "" || getlname.value === ""){
-//     swal("Please enter name")
-//    }
-//    else{
-//     window.location = "login.html";
-//    }
 }

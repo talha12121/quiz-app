@@ -3,6 +3,10 @@
     margin: 0px;
    
 }
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -20,6 +24,7 @@
 .nav h4 a{
 text-decoration: none;
 color: rgb(19, 17, 17);
+font-family: Poppins;
 font-size: 34px;
 text-transform: capitalize;
 font-weight: 450;
@@ -27,12 +32,13 @@ font-weight: 450;
 .nav h4 a:hover{
     color: azure;
     font-weight: 40px;
+    cursor: pointer;
 }
 .heading h3{
    color:rgb(130, 169, 213);
     font-size: 43px;
     padding-top: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins;
 }
 .main{
     border: 1px solid rgb(211, 207, 207);
@@ -135,10 +141,56 @@ margin-right: 20px;
     margin-top: 20px;
     padding-bottom: 20px;
 }
+#card-name:hover{
+    color: azure;
+    cursor: pointer;
+}
 
+                                    /* HTML QUIZ CSS */
+.main-1{
+    /* border: 1px solid red; */
+    border: 1px solid rgb(211, 207, 207);
+    /* text-align: center; */
+    margin-top: 60px;
+    width: 800px;
+    margin-left:260px ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 15px;
+    height:350px
+    
+}
+#question{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#countDowne{
+    font-size: 25px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -40px;
+}
+#next{
+    width: 90px;
+    border-radius: 35px;
+    border: 1px solid rgb(187, 172, 172);
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 660px;
+}
+.list input{
+    width: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
 
-
-
+}
+.list ul li {
+    list-style: none;
+    font-size: 20px;
+}
 
 
 
@@ -165,6 +217,84 @@ margin-right: 20px;
     display: block;
 }
 .card1{
-    margin-left: -50px;
+    margin-left: -65px;
+}
+#card-name{
+    font-size: 25px;
+    font-weight: 80px;
+}
+.main-1{
+       /* border: 1px solid red; */
+       border: 1px solid rgb(211, 207, 207);
+       /* text-align: center; */
+       margin-top: 60px;
+       width: 350px;
+       margin-left:6px ;
+       box-shadow: 10px 10px 5px #aaaaaa;
+       border-radius: 15px;
+       height:350px
+}
+#next{
+    width: 90px;
+    border-radius: 35px;
+    border: 1px solid rgb(187, 172, 172);
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+#question{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-left:-30px;
+    
+}
+#countDowne{
+    font-size: 25px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -60px;
+}
+.list input{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: -18px;
+    position: relative;
+    top: 10px;
+
 }
 }
+/* @media only screen and (max-width: 800px) {
+.main{
+    margin-left: 19px;
+    width: 310px;
+}
+.sign-main{  
+    margin-left: 19px;
+    width: 310px;
+}
+.nav img{
+    width: 70px;
+}
+.nav h4 a{
+    font-size: 26px;
+    font-weight: 1060;
+}
+.new-card1{
+    margin-left: 200px;
+}
+.new-card2{
+    margin-top: 460px;
+    margin-left: -420px;
+}
+.card1{
+    margin-left: -65px;
+}
+#card-name{
+    font-size: 25px;
+    font-weight: 80px;
+}
+
+} */

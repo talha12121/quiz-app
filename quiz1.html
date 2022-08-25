@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <img width="100px" src="./images/quiz_0.png" alt="">
+        <h3 id="card-name"></h3>
+    </div>
+
+    <div class="main-1">
+        <p id="question" ></p>
+        <div id="countDowne">
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answers">
+                    <label  for="ans1" id="option1"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answers">
+                    <label   for="ans2" id="option2"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answers">
+                    <label   for="ans3" id="option3"></label>
+                </li>
+            </ul>
+            <button onclick="submit()" id="next" type="button" class="btn btn-primary">Next</button>
+            <div id="showScore" class="scoreArea">
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="quiz1.js"></script>
+</body>
+</html>

@@ -1,14 +1,16 @@
 var val=document.getElementById("login-btn")
-var email=document.getElementById("email")
-var password=document.getElementById("password")
+var newEmail=document.getElementById("email")
+var newPassword=document.getElementById("password")
 function btn(){ 
-     var setvalue = localStorage.setItem("email",email.value)
-     var setpass= localStorage.setItem("password",password.value)
-    
-     if(email.value === "" || password.value === ""){
-         swal("Please enter correctly")
-        }
-        else{
-         window.location = "card.html";
-        }
+     var email = localStorage.getItem("email")
+     var pass = localStorage.getItem("password")
+     console.log(email)
+     console.log(pass)
+
+      if(newEmail.value === email && newPassword.value === pass){
+        window.location="card.html"
+    }else{
+    swal("ENTER CORRECT EMAIL & PASSWORD")
+    }
+ 
 }
