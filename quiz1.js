@@ -19,180 +19,112 @@ function updateCountDown() {
     time--;
 }
 
-var htmlQuizQuestion = [
+var htmlQuestion = [
     {
-        question: "Q1 : What Does HTML Stand For?",
+        question: "Q1: What Does HTML Stand For?",
         a: "Hyper Text Markup Language",
         b: "Home Tool Markup Language",
         c: "Hyper and Text Marked Language",
         ans: "ans1",
     },
     {
-        question: "Q2 : Who is making the Web standards?",
+        question: "Q2: Who is making the Web standards?",
         a: "Mozilla",
         b: "Google",
         c: "The World Wide Web Consortium",
         ans: "ans3",
     },
     {
-        question: "Q3 : Choose the correct HTML element for the largest heading:",
+        question: "Q3: Choose correct HTML for largest heading:",
         a: "heading",
         b: "heading2",
         c: "<'h1'>",
         ans: "ans3",
     },
+    
     {
-        question: "Q4 : What is the correct HTML element for inserting a line break?",
-        a: "<'br'>",
-        b: "lb",
-        c: "break",
-        ans: "ans1",
-    },
-    {
-        question: "Q5 : What is the correct HTML for adding a background color?",
+        question: "Q4: What is the HTML for adding a bg-color?",
         a: "body bg='yellow'",
-        b: "<'body style='background-color:yellow;''>",
+        b: "<'body style='background-color:yellow;'>",
         c: "yellow",
         ans: "ans2",
     },
     {
-        question: "Q6 : Choose the correct HTML element to define important text:",
+        question: "Q5: Choose correct element to define imp text",
         a: "i",
         b: "<'strong'>",
         c: "important",
         ans: "ans2",
     },
     {
-        question: "Q7 : Choose the correct HTML element to define emphasized text:",
+        question: "Q6: Choose correct HTML to define emp text",
         a: "<'em'>",
         b: "i",
         c: "italic",
         ans: "ans1",
     },
     {
-        question: "Q8 : Which character is used to indicate an end tag?",
+        question: "Q7: Which character is used to indicate an end tag?",
         a: "/",
         b: "<",
-        c: "*",
-        ans: "ans1",
+        c: ">",
+        ans: "ans3",
     },
     {
-        question: "Q9 : Which of these elements are all <'table'> elements?",
+        question: "Q8: Which of these elements are <'table'> elements?",
         a: "<'table'> <'tr'> <'td'>",
         b: "<'table'> <'td'> <'tr'>",
         c: "<'table'> <'tr'> <'tt'>",
         ans: "ans1",
     },
     {
-        question: "Q10 : How can you make a numbered list?",
+        question: "Q9: How can you make a numbered list?",
         a: "<'dl'>",
         b: "<'ol'>",
         c: "<'list'>",
         ans: "ans2",
     },
     {
-        question: "Q11 : How can you make a bulleted list?",
+        question: "Q10: How can you make a bulleted list?",
         a: "<'list'>",
         b: "<'ol'>",
         c: "<'ul'>",
         ans: "ans3",
     },
     {
-        question: "Q12 : What is the correct HTML for making a checkbox?",
+        question: "Q11: What is correct HTML for making checkbox?",
         a: "<'input type='checkbox''>",
         b: "<'check'>",
         c: "<'input type='check''>",
         ans: "ans1",
     },
     {
-        question: "Q13 : What is the correct HTML for making a text input field?",
-        a: "<'input type='text''>",
-        b: "<'textfield'>",
-        c: "<'input type='textfield''>",
-        ans: "ans1",
-    },
-    {
-        question: "Q14 : What is the correct HTML for making a drop-down list?",
-        a: "<'input type='dropdown''>",
-        b: "<'select'>",
-        c: "<'input type='list''>",
-        ans: "ans2",
-    },
-    {
-        question: "Q15 : Which HTML element defines the title of a document?",
-        a: "<'meta'>",
-        b: "<'head'>",
-        c: "<'title'>",
-        ans: "ans3",
-    },
-    {
-        question: "Q16 : Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed",
-        a: "title",
-        b: "alt",
-        c: "longdesc",
-        ans: "ans2",
-    },
-    {
-        question: "Q17 : Which doctype is correct for HTML5?",
+        question: "Q12: Which doctype is correct for HTML5?",
         a: "<'!DOCTYPE html'>",
         b: "<'!DOCTYPE HTML5'>",
         c: "<'!DOCTYPE html public'>",
         ans: "ans1",
     },
+   
     {
-        question: "Q18 : Which HTML element is used to specify a footer for a document or section?",
-        a: "<'footer'>",
-        b: "<'bottom'>",
-        c: "<'section'>",
-        ans: "ans1",
-    },
-    {
-        question: "Q19 : What is the correct HTML element for playing video files?",
-        a: "<'vedio'>",
-        b: "<'media'>",
-        c: "<'movie'>",
-        ans: "ans1",
-    },
-    {
-        question: "Q20 : What is the correct HTML element for playing audio files?",
-        a: "<'sound'>",
-        b: "<'audio'>",
-        c: "<'mp4'>",
-        ans: "ans2",
-    },
-    {
-        question: "Q21 : In HTML, onblur and onfocus are:",
+        question: "Q13: In HTML, onblur and onfocus are:",
         a: "HTML Elements",
         b: "Event Attributes",
         c: "Style Attributes",
         ans: "ans2",
     },
     {
-        question: "Q22 : Graphics defined by SVG is in which format?",
+        question: "14: Graphics defined by SVG is in which format?",
         a: "XML",
         b: "CSS",
         c: "HTML",
         ans: "ans1",
     },
     {
-        question: "Q23 : In HTML, which attribute is used to specify that an input field must be filled out?",
-        a: "placeholder",
-        b: "formvalidate",
-        c: "required",
-        ans: "ans3",
-    },
-    {
-        question: "Q24 : Which input type defines a slider control?",
+        question: "Q15: Which input type defines a slider control?",
         a: "slider",
         b: "search",
         c: "range",
-        ans: "ans3",
-    },
-    {
-        question: "Q25 : Which HTML element is used to specify a header for a document or section?",
-        a: "<'section'>",
-        b: "<'head'>",
-        c: "<'header'>",
         ans: "ans3",
     },
 ]
@@ -202,21 +134,70 @@ var option2 = document.getElementById("option2");
 var option3 = document.getElementById("option3");
 var option4 = document.getElementById("option4");
 var next = document.getElementById("next");
-var answers = document.getElementById("answer");
+var answers = document.getElementsByName("answers");
 var showScore = document.getElementById("showScore");
 
-var qusetionCount = 0;
+var count = 0;
 var score = 0;
-var questionBack = 25;
+var questionBack = 15;
 
-function nextQuestion() {
+function newQuestion() {
 
-    var qusetionList = htmlQuizQuestion[qusetionCount];
+    var qusetionList = htmlQuestion[count];
+
     question.innerHTML = qusetionList.question;
     option1.innerHTML = qusetionList.a;
     option2.innerHTML = qusetionList.b;
     option3.innerHTML = qusetionList.c;
-   
+    
 }
-nextQuestion();
+newQuestion();
+
+function getCheckAnswer() {
+    var answer;
+
+    for (var i = 0; i < answers.length; i++) {
+        if (answers[i].checked) {
+            answer = answers[i].id;
+        }
+    }
+    return answer;
+}
+
+function dselectAll() {
+    for (var i = 0; i < answers.length; i++) {
+        answers[i].checked = false;
+    }
+}
+
+next.addEventListener("click", () => {
+    var checkedAnswer = getCheckAnswer();
+    
+
+    if (checkedAnswer === htmlQuestion[count].ans) {
+        score++;
+    }
+
+    count++;
+
+    dselectAll();
+
+    if (count < htmlQuestion.length) {
+        newQuestion();
+    }
+    else if (score > 12) {
+        showScore.innerHTML = `
+          <h4 id="heading50"> Congratulation You Have Passed ${score}/${htmlQuestion.length}  </h4>
+          <button id="button34" onclick ="location.reload()" type="button" class="btn btn-primary">Play Again</button>
+        `
+        showScore.classList.remove("scoreArea")
+    }
+    else {
+        showScore.innerHTML = `
+          <h4 id="heading50"> You  Are Fail ${score}/${htmlQuestion.length}  </h4>
+          <button id="button34" onclick ="location.reload()" type="button" class="btn btn-primary">Play Again</button>
+        `
+        showScore.classList.remove("scoreArea")
+    }
+})
 

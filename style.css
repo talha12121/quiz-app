@@ -24,7 +24,7 @@
 .nav h4 a{
 text-decoration: none;
 color: rgb(19, 17, 17);
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 34px;
 text-transform: capitalize;
 font-weight: 450;
@@ -38,7 +38,7 @@ font-weight: 450;
    color:rgb(130, 169, 213);
     font-size: 43px;
     padding-top: 10px;
-    font-family: Poppins;
+    font-family: "Poppins";
 }
 .main{
     border: 1px solid rgb(211, 207, 207);
@@ -151,12 +151,15 @@ margin-right: 20px;
     /* border: 1px solid red; */
     border: 1px solid rgb(211, 207, 207);
     /* text-align: center; */
+   
+    background-color: rgb(149, 149, 242);
     margin-top: 60px;
     width: 800px;
     margin-left:260px ;
     box-shadow: 10px 10px 5px #aaaaaa;
     border-radius: 15px;
     height:350px
+    
     
 }
 #question{
@@ -169,13 +172,13 @@ margin-right: 20px;
     font-size: 25px;
     float: right;
     margin-right: 30px;
-    margin-top: -40px;
+    margin-top: -90px;
 }
 #next{
     width: 90px;
     border-radius: 35px;
     border: 1px solid rgb(187, 172, 172);
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 15px;
     padding: 10px;
     margin-left: 660px;
@@ -187,9 +190,22 @@ margin-right: 20px;
     top: 10px;
 
 }
+.list input:hover{
+    cursor: pointer;
+}
 .list ul li {
     list-style: none;
     font-size: 20px;
+}
+#heading50{
+    margin-top: 80px;
+    text-align: center;
+}
+#button34{
+    margin-left: 361px;
+    margin-top: 10px;
+    padding: 10px ;
+
 }
 
 
@@ -227,7 +243,7 @@ margin-right: 20px;
        /* border: 1px solid red; */
        border: 1px solid rgb(211, 207, 207);
        /* text-align: center; */
-       margin-top: 60px;
+       margin-top: 80px;
        width: 350px;
        margin-left:6px ;
        box-shadow: 10px 10px 5px #aaaaaa;
@@ -246,16 +262,18 @@ margin-right: 20px;
 }
 #question{
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 17px;
+    width: 390px;
     text-align: center;
-    margin-left:-30px;
+    margin-left:-20px;
     
 }
 #countDowne{
     font-size: 25px;
     float: right;
     margin-right: 10px;
-    margin-top: -60px;
+    margin-top: -105px;
+    
 }
 .list input{
     width: 20px;
