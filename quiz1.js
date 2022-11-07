@@ -1,7 +1,7 @@
 var name = document.getElementById("card-name").innerHTML = "HEllo" +" "+ localStorage.getItem("getfname")
 
 
-var startingMin = 20;
+var startingMin = 10;
 var time = startingMin * 60;
 
 var countDowne = document.getElementById("countDowne");
@@ -91,42 +91,7 @@ var htmlQuestion = [
         c: "<'ul'>",
         ans: "ans3",
     },
-    {
-        question: "Q11: What is correct HTML for making checkbox?",
-        a: "<'input type='checkbox''>",
-        b: "<'check'>",
-        c: "<'input type='check''>",
-        ans: "ans1",
-    },
-    {
-        question: "Q12: Which doctype is correct for HTML5?",
-        a: "<'!DOCTYPE html'>",
-        b: "<'!DOCTYPE HTML5'>",
-        c: "<'!DOCTYPE html public'>",
-        ans: "ans1",
-    },
-   
-    {
-        question: "Q13: In HTML, onblur and onfocus are:",
-        a: "HTML Elements",
-        b: "Event Attributes",
-        c: "Style Attributes",
-        ans: "ans2",
-    },
-    {
-        question: "14: Graphics defined by SVG is in which format?",
-        a: "XML",
-        b: "CSS",
-        c: "HTML",
-        ans: "ans1",
-    },
-    {
-        question: "Q15: Which input type defines a slider control?",
-        a: "slider",
-        b: "search",
-        c: "range",
-        ans: "ans3",
-    },
+    
 ]
 var question = document.getElementById("question");
 var option1 = document.getElementById("option1");
@@ -139,7 +104,7 @@ var showScore = document.getElementById("showScore");
 
 var count = 0;
 var score = 0;
-var questionBack = 15;
+var questionBack = 10;
 
 function newQuestion() {
 
@@ -185,7 +150,7 @@ next.addEventListener("click", () => {
     if (count < htmlQuestion.length) {
         newQuestion();
     }
-    else if (score > 12) {
+    else if (score > 8) {
         showScore.innerHTML = `
           <h4 id="heading50"> Congratulation You Have Passed ${score}/${htmlQuestion.length}  </h4>
           <button id="button34" onclick ="location.reload()" type="button" class="btn btn-primary">Play Again</button>

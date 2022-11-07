@@ -1,7 +1,7 @@
 var name = document.getElementById("card-name").innerHTML = "HEllo" +" "+ localStorage.getItem("getfname")
 
 
-var startingMin = 20;
+var startingMin = 10;
 var time = startingMin * 60;
 
 var countDowne = document.getElementById("countDowne");
@@ -99,21 +99,7 @@ var htmlQuestion = [
         c: "*test",
         ans: "ans1",
     },
-    {
-        question: "Q12 : How doselect all p elements inside a div element?",
-        a: "div + p",
-        b: "div p",
-        c: "div.p",
-        ans: "ans2",
-    },
-   
-    {
-        question: "Q13: Which HTML is used to define an internal style sheet?",
-        a: "<'style'>",
-        b: "<'script'>",
-        c: "<'css'>",
-        ans: "ans1",
-    },
+    
 ]
 var question = document.getElementById("question");
 var option1 = document.getElementById("option1");
@@ -126,7 +112,7 @@ var showScore = document.getElementById("showScore");
 
 var count = 0;
 var score = 0;
-var questionBack = 13;
+var questionBack = 10;
 
 function newQuestion() {
 
@@ -172,7 +158,7 @@ next.addEventListener("click", () => {
     if (count < htmlQuestion.length) {
         newQuestion();
     }
-    else if (score > 11) {
+    else if (score > 8) {
         showScore.innerHTML = `
           <h4 id="heading50"> Congratulation You Have Passed ${score}/${htmlQuestion.length}  </h4>
           <button id="button34" onclick ="location.reload()" type="button" class="btn btn-primary">Play Again</button>

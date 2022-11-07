@@ -1,7 +1,7 @@
 var name = document.getElementById("card-name").innerHTML = "HEllo" +" "+ localStorage.getItem("getfname")
 
 
-var startingMin = 20;
+var startingMin = 10;
 var time = startingMin * 60;
 
 var countDowne = document.getElementById("countDowne");
@@ -92,28 +92,8 @@ var htmlQuestion = [
         c: "static",
         ans: "ans3",
     },
-    {
-        question: "Q11: How do select elements with class name 'test'?",
-        a: ".test",
-        b: "#test",
-        c: "*test",
-        ans: "ans1",
-    },
-    {
-        question: "Q12 : How doselect all p elements inside a div element?",
-        a: "div + p",
-        b: "div p",
-        c: "div.p",
-        ans: "ans2",
-    },
    
-    {
-        question: "Q13: Which HTML is used to define an internal style sheet?",
-        a: "<'style'>",
-        b: "<'script'>",
-        c: "<'css'>",
-        ans: "ans1",
-    },
+    
 ]
 var question = document.getElementById("question");
 var option1 = document.getElementById("option1");

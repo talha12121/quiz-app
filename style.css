@@ -209,110 +209,311 @@ margin-right: 20px;
 }
 
 
+@media (max-width:1115px) {
+    /* SIGN UP */
+   .sign-main{
+   margin: 45px auto;
+   }
+   
+   /* LOGIN */
+   .main{
+   margin: 45px auto;
+}
+      /* CARD */
+    .card{
+        width: 270px !important;
+        margin-left:76px !important;
+    }
+       /* QUIZ */
+       .main-1{
+       margin: 45px auto;
+       }
+       
+}
+@media (max-width:1024px) {
+    /* SIGN UP */
+   .sign-main{
+   margin: 45px auto;
+   }
+   
+   /* LOGIN */
+   .main{
+   margin: 45px auto;
+}
+ /* CARD */
+ .card{
+    width: 270px !important;
+    margin-left:49px !important;
+}
+}
+@media (max-width:960px) {
+    .card{
+       width: 270px !important;
+       margin-left:34px !important;
+    }
 
+}
+@media (max-width:915px) {
+    .card{
+       width: 230px !important;
+       margin-left:54px !important;
+    }
+    .card-img-top{
+        width: 200px !important;
+    }
+    .new{
+        width: 143px !important;
+    }
+}
+@media (max-width:860px) {
+    .card{
+       width: 230px !important;
+       margin-left:44px !important;
+    }
+}
+@media (max-width:824px) {
+    .card{
+       width: 230px !important;
+       margin-left:24px !important;
+    }
 
+}
+@media (max-width:801px) {
+    .main-1{
+        width: 82%;
+    }
+    .btn{
+         margin: 45px 144px !important;
+    }
+}
+    
+@media (max-width:765px) {
+    .card{
+       width: 220px !important;
+       margin-left:18px !important;
+    }
 
+}
+@media (max-width:679px) {
+    .btn{
+        margin-top: 16px !important;
+    }
+    .list{
+        margin-top: -10px;
+    }
+}
 
-@media only screen and (max-width: 500px) {
-.main{
-    margin-left: 19px;
-    width: 310px;
+@media (max-width:715px) {
+    .card{
+       width: 210px !important;
+       margin-left:18px !important;
+    }
+    .card-img-top{
+        width: 150px !important;
+        margin-left: 34px !important;
+    }
+    .new{
+        width: 106px !important;
+        margin-left: 64px !important;
+
+    }
+
 }
-.sign-main{  
-    margin-left: 19px;
-    width: 310px;
+@media (max-width:683px) {
+    .card{
+       width: 200px !important;
+       margin-left:18px !important;
+    }
 }
-.nav img{
-    width: 70px;
+@media (max-width:653px) {
+    .card{
+       width: 190px !important;
+       margin-left:18px !important;
+    }
 }
-.nav h4 a{
-    font-size: 26px;
-    font-weight: 1060;
+@media (max-width:623px) {
+    .card{
+       width: 180px !important;
+       margin-left:18px !important;
+    }
+    .card-img-top{
+        margin-left: 14px !important;
+    }
+    .new{
+        margin-left: 44px !important;
+
+    }
 }
-.row{
-    display: block;
+@media (max-width:593px) {
+    .card{
+       width: 180px !important;
+       margin-left:12px !important;
+    }
 }
-.card1{
-    margin-left: -65px;
+@media (max-width:576px) {  
+    .card{
+       width: 140px !important;
+       margin-left:26px !important;
+    }
+    .card-img-top{
+        width: 80% !important;
+        margin-left: 14px !important;
+    }
+    .new{
+        width: 57% !important;
+        margin-left: 44px !important;
+
+    }
+    .news-card2{
+        height: 220px;
+    }
 }
-#card-name{
-    font-size: 25px;
-    font-weight: 80px;
+
+@media (max-width:503px) {
+    .btn{
+        margin-left: 80px !important;
+    }
 }
-.main-1{
-       /* border: 1px solid red; */
-       border: 1px solid rgb(211, 207, 207);
-       /* text-align: center; */
-       margin-top: 80px;
-       width: 350px;
-       margin-left:6px ;
-       box-shadow: 10px 10px 5px #aaaaaa;
-       border-radius: 15px;
-       height:350px
+@media (max-width:454px) {
+    .main-1{
+   
+        height: 400px;
+    }
 }
-#next{
-    width: 90px;
-    border-radius: 35px;
-    border: 1px solid rgb(187, 172, 172);
-    font-family: Poppins;
-    font-size: 15px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-left: 230px;
-}
-#question{
-    margin-top: 40px;
-    font-size: 17px;
-    width: 390px;
-    text-align: center;
-    margin-left:-20px;
+@media (max-width:366px) {
+    .sign-main{
+    width: 90%;
+    }
+    .main{
+    width: 90%;
+    }
     
 }
-#countDowne{
-    font-size: 25px;
-    float: right;
-    margin-right: 10px;
-    margin-top: -105px;
+@media (max-width:497px) {
+    .card{
+        width: 50% !important;
+        
+    }
+    .row{
+        display: block;
+        margin-left:60px ;
+    }
+    .nav-logo{
+        width: 20% !important;
+    }
+    .nav h3{
+        font-size: 25px;
+    }
+}
+@media (max-width:495px) {
+    .main-1{
+        height: 390px;
+    }
+}
+
+@media (max-width:447px) {
+    .main-1{
+        height: 410px;
+    }
+}
+
+@media (max-width:387px) {
+    .btn{
+        margin-left: 56px !important;
+    }
+}
+@media (max-width:366px) {
+    .main-1{
+        height: 430px;
+     
+}
+}
+@media (max-width:363px) {
+    .row{
+        display: block;
+        margin-left:60px ;
+    }
+    .nav-logo{
+        width: 20% !important;
+    }
+    .nav h3{
+        font-size: 25px;
+    }
+}
+@media (max-width:357px) {
+    .btn{
+        margin-left: 46px !important;
+    }
+}
+@media (max-width:345px) {
+    .btn{
+        margin-left: 44px !important;
+    }
+@media (max-width:342px) {
+    .btn{
+        margin-left: 40px !important;
+    }
+}
+}
+@media (max-width:338px) {
+    .row{
+        display: block;
+        margin-left:60px ;
+    }
+    .nav-logo{
+        width: 20% !important;
+    }
+    .nav h3{
+        font-size: 25px;
+    }
+}
+@media (max-width:313px) {
+    .heading h3{
+        font-size: 34px;
+    }
+    input{
+        width: 190px;
+    }
+    .nav-logo{
+        width: 20% !important;
+    }
+    .nav h4{
+        margin-top: 12px !important;
+    }
+    .nav h4 a{
+      font-size: 22px !important;
+    
+    }
+    .row{
+        display: block !important;
+        margin-left: 45px  !important;
+    }
+    .nav h3{
+        font-size: 22px;
+    }
+    .main-1{
+        width:90% !important;
+    }
+}
+@media (max-width:285px) {
+.btn{
+    margin-left: 12px !important;
+}
+}
+@media (max-width:267px) {
+    .new{
+        margin-left: 28px !important;
+    }
+    .row{
+        margin-left: 15px  !important;
+    }
+}
+@media (max-width:257px) {
+    .row{
+        
+        margin-left: 15px  !important;
+    }
+    
     
 }
-.list input{
-    width: 20px;
-    margin-top: 20px;
-    margin-left: -18px;
-    position: relative;
-    top: 10px;
 
-}
-}
-/* @media only screen and (max-width: 800px) {
-.main{
-    margin-left: 19px;
-    width: 310px;
-}
-.sign-main{  
-    margin-left: 19px;
-    width: 310px;
-}
-.nav img{
-    width: 70px;
-}
-.nav h4 a{
-    font-size: 26px;
-    font-weight: 1060;
-}
-.new-card1{
-    margin-left: 200px;
-}
-.new-card2{
-    margin-top: 460px;
-    margin-left: -420px;
-}
-.card1{
-    margin-left: -65px;
-}
-#card-name{
-    font-size: 25px;
-    font-weight: 80px;
-}
-
-} */
