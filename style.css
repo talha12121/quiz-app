@@ -43,12 +43,12 @@ font-weight: 450;
 .main{
     border: 1px solid rgb(211, 207, 207);
     text-align: center;
+    margin: 0 auto;
     margin-top: 60px;
     width: 350px;
-    margin-left:520px ;
     box-shadow: 10px 10px 5px #aaaaaa;
     border-radius: 15px;
-    height:350px
+    height: 350px
 }
 .email{
     padding:10px;
@@ -73,7 +73,7 @@ input{
     
 }
 
-.btn:hover{
+.btn:hover , .newBtn{
     outline: none;
     /* overflow: hidden; */
     transition: .2s;
@@ -217,7 +217,7 @@ margin-right: 20px;
    
    /* LOGIN */
    .main{
-   margin: 45px auto;
+   /* margin: 45px auto; */
 }
       /* CARD */
     .card{
@@ -238,7 +238,7 @@ margin-right: 20px;
    
    /* LOGIN */
    .main{
-   margin: 45px auto;
+   /* margin: 45px auto; */
 }
  /* CARD */
  .card{
@@ -282,7 +282,7 @@ margin-right: 20px;
     .main-1{
         width: 82%;
     }
-    .btn{
+    .newBtn{
          margin: 45px 144px !important;
     }
 }
@@ -295,7 +295,7 @@ margin-right: 20px;
 
 }
 @media (max-width:679px) {
-    .btn{
+    .newBtn{
         margin-top: 16px !important;
     }
     .list{
@@ -370,7 +370,7 @@ margin-right: 20px;
 }
 
 @media (max-width:503px) {
-    .btn{
+    .newBtn{
         margin-left: 80px !important;
     }
 }
@@ -418,7 +418,7 @@ margin-right: 20px;
 }
 
 @media (max-width:387px) {
-    .btn{
+    .newBtn{
         margin-left: 56px !important;
     }
 }
@@ -441,16 +441,16 @@ margin-right: 20px;
     }
 }
 @media (max-width:357px) {
-    .btn{
+    .newBtn{
         margin-left: 46px !important;
     }
 }
 @media (max-width:345px) {
-    .btn{
+    .newBtn{
         margin-left: 44px !important;
     }
 @media (max-width:342px) {
-    .btn{
+    .newBtn{
         margin-left: 40px !important;
     }
 }
@@ -496,7 +496,7 @@ margin-right: 20px;
     }
 }
 @media (max-width:285px) {
-.btn{
+.newBtn{
     margin-left: 12px !important;
 }
 }
