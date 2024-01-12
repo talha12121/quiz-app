@@ -202,8 +202,9 @@ margin-right: 20px;
     text-align: center;
 }
 #button34{
-    margin-left: 361px;
-    margin-top: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
     padding: 10px ;
 
 }
